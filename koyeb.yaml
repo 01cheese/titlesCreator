@@ -1,0 +1,5 @@
+services:
+  - name: telegram-bot
+    type: worker
+    run:
+      command: python bot.py
